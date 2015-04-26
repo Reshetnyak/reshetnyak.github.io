@@ -114,8 +114,14 @@
 				<ul class="experience-container">
 					<li>
 						<h3><a href="http://maxymiser.com" target="_blank">Maxymiser</a></h3>
-						<p>Warsaw, Poland. July 2014 - present</p>
-						<p>Dnipropetrovsk, Ukraine. September 2013 - July 2014</p>
+						<p>
+							<img src="img/poland_flag.png" alt="poland's flag" class="flag">
+							<span>Warsaw, Poland. July 2014 - present (<span id="time"></span>)</span>
+						</p>
+						<p>
+							<img src="img/ukraine_flag.png" alt="ukraine's flag" class="flag">
+							<span>Dnipropetrovsk, Ukraine. September 2013 - July 2014 (1 year and 1 month)</span>
+						</p>
 					</li>
 					<li>
 						<span><strong>Role:</strong> Front End Developer</span>
@@ -160,7 +166,16 @@
 			</section>
 		</article>
 	</main>
-	
 	<footer></footer>
+	<script>
+		;(function(){
+			var spanToFill = document.querySelector('#time'),
+				startDate = new Date('25 July 2014').getTime(),
+				endDate = new Date().getTime(),
+				delta = parseInt( (endDate - startDate) / 1000 / 60 / 60 / 24 / 30, 10);
+
+			spanToFill.innerHTML = delta + ' monthes';
+		}());
+	</script>
 </body>
 </html>
