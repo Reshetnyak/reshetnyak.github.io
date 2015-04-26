@@ -3,6 +3,7 @@ body{
 }
 ul{
 	padding: 0 0 0 15px;
+	margin-bottom: 0;
 }
 ul li{
 	list-style: none;
@@ -10,6 +11,9 @@ ul li{
 }
 .no-mg-top{
 	margin-top: 0;
+}
+.no-padding{
+	padding: 0;
 }
 .mg-left-15{
 	margin-left: 15px;
@@ -23,4 +27,7 @@ h3{
 }
 p{
 	font-size: 16px;
+}
+section{
+	margin-bottom: 10px;
 }
