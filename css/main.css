@@ -32,3 +32,9 @@ p{
 section{
 	margin-bottom: 10px;
 }
+.experience-container ul {
+  padding-left: 20px;
+}
+.experience-container ul li {
+  list-style: disc;
+}
