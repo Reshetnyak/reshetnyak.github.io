@@ -35,6 +35,9 @@ section{
 ul.experience-container{
   padding-left: 20px;
 }
-ul.experience-container li {
+ul.responsibilities-ul {
+  padding-left: 16px;
+}
+ul.responsibilities-ul li {
   list-style: disc;
 }
